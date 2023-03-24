@@ -10,7 +10,7 @@ image:
 
 deployment:
   name: hello-ui
-  image: nhat190899/hello-ui:4bbe939adacd5365c01deed95ab365745e6f0897
+  image: nhat190899/hello-ui:09b5aca58e8450eddc8a257d8fee60d29b455950
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
