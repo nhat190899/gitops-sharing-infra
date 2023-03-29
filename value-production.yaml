@@ -10,7 +10,7 @@ image:
 
 deployment:
   name: fsoft-production
-  image: nhat190899/fsoft-production:09b5aca58e8450eddc8a257d8fee60d29b455950
+  image: nhat190899/fsoft-production:5ec319bbf7680f3f2f75479191a7068c01d9f628
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
