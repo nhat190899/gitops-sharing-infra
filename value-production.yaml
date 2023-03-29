@@ -1,7 +1,7 @@
 # Default values for helm-chart.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-k8sNamespace: fsoft-coe
+k8sNamespace: fsoft-production
 replicaCount: 1
 
 image:
@@ -9,8 +9,8 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
 
 deployment:
-  name: hello-ui
-  image: nhat190899/hello-ui:09b5aca58e8450eddc8a257d8fee60d29b455950
+  name: fsoft-production
+  image: nhat190899/fsoft-production:09b5aca58e8450eddc8a257d8fee60d29b455950
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
@@ -40,7 +40,7 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 80
-  name: hello-ui-svc
+  name: fsoft-production-svc
 ingress:
   enabled: true
   className: ""
