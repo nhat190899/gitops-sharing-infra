@@ -10,7 +10,7 @@ image:
 
 deployment:
   name: fsoft-staging
-  image: nhat190899/fsoft-staging:c91204908383e3b8e20901f508a408a9827d28d2
+  image: nhat190899/fsoft-staging:f8dfafebf621eac0951faeeb4fd7cf8de7142475
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
