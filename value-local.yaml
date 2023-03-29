@@ -10,7 +10,7 @@ image:
 
 deployment:
   name: fsoft-local
-  image: nhat190899/fsoft-local:09b5aca58e8450eddc8a257d8fee60d29b455950
+  image: nhat190899/fsoft-local:c91204908383e3b8e20901f508a408a9827d28d2
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
